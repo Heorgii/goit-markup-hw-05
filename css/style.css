@@ -578,7 +578,7 @@ h2{
 
 .footer > .container{
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
 }
 
 .fot{
