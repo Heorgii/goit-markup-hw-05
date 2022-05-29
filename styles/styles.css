@@ -299,6 +299,7 @@ p{
 
 /* Анімація */
 
+
 .overlay{
     position: relative;
     overflow: hidden;
@@ -328,7 +329,6 @@ p{
     transform: translateY(100%);
     transition: 250ms ease;
 }
-
 
 .overlay-item:hover .overlay-text{
     transform: translateY(0);
@@ -360,6 +360,7 @@ p{
 }
 
 /* Footer */
+
 .footer{
     background: #2F303A;
     align-items: center;
