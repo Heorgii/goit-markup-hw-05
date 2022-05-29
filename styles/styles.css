@@ -35,7 +35,7 @@ main{
 }
 
 
-/* Header */
+/* ⁡⁢⁣⁢𝗛𝗲𝗮𝗱𝗲𝗿⁡ */
 
 nav{
     display: flex;
@@ -173,7 +173,7 @@ ul{
 }
 
 
-/* Header contact icon */
+/* ⁡⁢⁣⁢𝗛𝗲𝗮𝗱𝗲𝗿⁡ contact icon */
 
 .icon-link{
     fill: currentColor;
@@ -184,7 +184,7 @@ ul{
 }
 
 
-/* Buttons */
+/* ⁡⁢⁣⁢𝗕𝘂𝘁𝘁𝗼𝗻𝘀⁡ */
 
 .button{
     padding: 6px 22px;
@@ -227,7 +227,7 @@ ul{
     margin-bottom: 50px;
 }
 
-/* Photo  */
+/* ⁡⁢⁣⁢𝗣𝗵𝗼𝘁𝗼⁡  */
 
 .main-photo{
     margin-right: -30px;
@@ -297,7 +297,7 @@ p{
 }
 
 
-/* Анімація */
+/* ⁡⁢⁣⁢Анімація⁡ */
 
 
 .overlay{
@@ -359,7 +359,7 @@ p{
     }
 }
 
-/* Footer */
+/* ⁡⁣⁢⁣𝔽𝕠𝕠𝕥𝕖𝕣⁡ */
 
 .footer{
     background: #2F303A;
@@ -422,7 +422,7 @@ p{
     margin-right: 70px;
 }
 
-/* Footer social networks */
+/* ⁡⁣⁢⁣𝔽𝕠𝕠𝕥𝕖𝕣⁡ ⁡⁣⁢⁢𝘀𝗼𝗰𝗶𝗮𝗹 𝗻𝗲𝘁𝘄𝗼𝗿𝗸𝘀⁡ */
 
 
 .footer-socials{
