@@ -300,11 +300,14 @@ p{
 .overlay{
     position: relative;
     overflow: hidden;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .overlay-photo{
     position:static;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .overlay-text{
