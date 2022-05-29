@@ -102,14 +102,18 @@ header{
 
     padding-top: 32px;
     padding-bottom: 32px;
+
+    transition: 250ms ease;
 }
 
 .link:hover{
     color: #2196F3;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link:focus{
     color: #2196F3;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-link{
@@ -136,12 +140,18 @@ ul{
     list-style-type: none;
 }
 
+.header-navigation{
+    margin-left: auto;
+}
+
 .email, .tel{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
+
+    transition: 250ms ease;
 }
 
 .svg{
@@ -150,19 +160,18 @@ ul{
 
 .email:hover, .tel:hover{
     color: #2196F3;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .email:focus, .tel:focus{
     color: #2196F3;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .email{
     margin-right: 50px;
 }
 
-.header-navigation{
-    margin-left: auto;
-}
 
 /* Header contact icon */
 
@@ -193,6 +202,7 @@ ul{
     margin-right: 8px;
 
     border-color: transparent;
+    transition: 250ms ease;
 } 
 
 .button:hover, .button:focus{
@@ -208,6 +218,7 @@ ul{
     color: #FFFFFF;
 
     cursor: pointer;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 
 .main-buttons{
@@ -225,7 +236,6 @@ ul{
     align-items: center;
     padding: 0;
 }
-
 
 .third{
     margin: 0;
@@ -286,6 +296,7 @@ p{
     color: #757575;
 }
 
+
 /* Анімація */
 
 .overlay{
@@ -293,7 +304,6 @@ p{
     overflow: hidden;
     display: inline-block;
 }
-
 
 .overlay-photo{
     position:static;
@@ -315,8 +325,6 @@ p{
     color: #ffffff;
 
     background-color: rgba(33, 150, 243, 0.9); 
-    /* transform: translateY(100%); */
-    /* transition: trasform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
     transform: translateY(100%);
     transition: 250ms ease;
 }
@@ -369,7 +377,6 @@ p{
     line-height: 31px;
 }
 
-
 .adres{
     font-style: normal;
     font-weight: 400;
@@ -390,6 +397,8 @@ p{
     color: rgba(255, 255, 255, 0.6);
     display: flex;
     margin-bottom: 9px;
+
+    transition: 250ms ease;
 }
 
 .footer-tel{
@@ -398,6 +407,7 @@ p{
 
 .footer-tel:hover, .footer-email:hover{
     color: #2196F3;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer > .container{
@@ -438,19 +448,24 @@ p{
 
     background-color: #ffffff;
     border-radius: 50%;
+
+    transition: 250ms ease;
 }
 
 .social-link:hover{
     background-color: #2196F3;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:focus{
     background-color: #2196F3;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover .social-icon,
 .social-link:focus .social-icon{
     fill: #FFFFFF;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
